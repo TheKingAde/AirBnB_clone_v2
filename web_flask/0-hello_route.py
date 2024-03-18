@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """Simple Flask web application"""
 from flask import Flask
-app = Flask('web_flask')
+app = Flask('0-hello_route')
 
 
-@app.route('/', strict_slashes=False)
+@app.route('/airbnb-onepage', strict_slashes=False)
 def hello_route():
     """Return simple string"""
     return 'Hello HBNB!'
